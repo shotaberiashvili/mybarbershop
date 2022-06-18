@@ -1,0 +1,75 @@
+body{
+background-image: url('img/background.jpeg');
+background-repeat:no-repeat;
+background-size:100% 120%;
+}
+.App {
+  text-align: center;
+}
+.h1{
+  background-color:dodgerblue;
+  color: blue;
+}
+.h2{
+  background-color:red;
+  
+}
+.div2{
+  display: flex;
+  margin: 24px 520px;
+}
+.form1{
+margin-right: 100px;
+color:red;
+font-family:'Times New Roman', Times, serif;
+font-size: larger;
+font-weight: bold;
+}
+.form2{
+  color:dodgerblue;
+  font-family:'Times New Roman', Times, serif;
+  font-size: larger;
+  font-weight: bold;
+}
+.label1{
+  background-color: rgba(255, 255, 255, 0.679);
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
